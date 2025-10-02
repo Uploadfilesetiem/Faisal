@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Menarik Anda</title>
+    <style>
+        /* Gaya CSS untuk tampilan */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6; /* Latar belakang cerah */
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #ffffff; /* Latar belakang utama putih */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #007bff; /* Warna biru profesional */
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 1.1em;
+            font-style: italic;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Membuat gambar bundar */
+            object-fit: cover;
+            border: 5px solid white; /* Bingkai putih */
+            margin-top: -75px; /* Mengangkat gambar ke atas */
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .main-content {
+            display: flex;
+            padding: 30px;
+        }
+
+        .sidebar {
+            flex: 1;
+            padding-right: 30px;
+            border-right: 2px solid #e0e0e0;
+        }
+
+        .details {
+            flex: 2;
+            padding-left: 30px;
+        }
+
+        h2 {
+            color: #007bff;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .contact-info p, .section p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #e6f0ff; /* Latar belakang sedikit berbeda untuk daftar */
+            margin-bottom: 8px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background-color: #28a745; /* Warna hijau untuk keahlian */
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="https://via.placeholder.com/150/007bff/FFFFFF?text=Foto" alt="Foto Profil" class="profile-picture">
+            <h1>Nama Lengkap Anda</h1>
+            <p>Seorang Pengembang Web Kreatif & Penulis Konten</p>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="contact-info section">
+                    <h2>Kontak & Dasar</h2>
+                    <p><strong>🏠 Alamat:</strong> Jl. Contoh No. 123, Jakarta</p>
+                    <p><strong>📧 Email:</strong> email.anda@contoh.com</p>
+                    <p><strong>📞 Telepon:</strong> (081) 234-5678</p>
+                    <p><strong>🔗 LinkedIn:</strong> /in/nama-anda</p>
+                </div>
+
+                <div class="section">
+                    <h2>Ringkasan</h2>
+                    <p>Individu yang termotivasi dengan 5 tahun pengalaman dalam pengembangan *front-end* dan pemasaran digital. Bersemangat menciptakan solusi digital yang intuitif dan berorientasi pada pengguna. Selalu siap mempelajari teknologi baru.</p>
+                </div>
+
+                <div class="section skills">
+                    <h2>Keahlian</h2>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>ReactJS</span>
+                    <span>Desain Grafis</span>
+                    <span>Copywriting</span>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="section">
+                    <h2>Pendidikan</h2>
+                    <ul>
+                        <li>
+                            <strong>S.Kom, Teknik Informatika</strong><br>
+                            Universitas Teknologi Canggih | 2015 - 2019
+                        </li>
+                        <li>
+                            <strong>Kursus Profesional Desain UI/UX</strong><br>
+                            Akademi Desain Digital | 2020
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Pengalaman Kerja</h2>
+                    <ul>
+                        <li>
+                            <strong>Senior Web Developer</strong> | PT. Solusi Digital Kreatif<br>
+                            *2021 - Sekarang*<br>
+                            Mengelola dan mengembangkan 5 proyek *website* utama perusahaan, meningkatkan performa situs sebesar 30%.
+                        </li>
+                        <li>
+                            <strong>Junior Front-End Developer</strong> | Startup Inovasi Baru<br>
+                            *2019 - 2021*<br>
+                            Bertanggung jawab untuk implementasi antarmuka pengguna pada aplikasi *mobile* dan *web*.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
